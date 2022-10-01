@@ -1,10 +1,9 @@
 import java.util.Scanner;
 class Hollow 
 {
-private static Scanner sc;
 public static void main(String[] args) 
 {
-sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 System.out.print("Enter Hollow Square Side = ");
 int side = sc.nextInt();
 System.out.println("Printing Hollow Square Star Pattern");
